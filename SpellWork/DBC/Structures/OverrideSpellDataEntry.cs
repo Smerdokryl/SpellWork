@@ -2,8 +2,9 @@
 {
     public sealed class OverrideSpellDataEntry
     {
-        public uint[] Spells;
-        public uint PlayerActionbarFileDataID;
+        public uint ID;
+        public int[] Spells;
+        public int PlayerActionBarFileDataID;
         public byte Flags;
     }
 }

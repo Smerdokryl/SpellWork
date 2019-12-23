@@ -2,10 +2,11 @@
 {
     public sealed class SpellRangeEntry
     {
-        public float[] MinRange;
-        public float[] MaxRange;
+        public uint ID;
         public string DisplayName;
         public string DisplayNameShort;
+        public float[] RangeMin;
+        public float[] RangeMax;
         public byte Flags;
     }
 }

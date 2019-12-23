@@ -2,10 +2,11 @@
 {
     public class SpellInterruptsEntry
     {
+        public uint ID;
+        public byte DifficultyID;
+        public short InterruptFlags;
+        public int[] AuraInterruptFlags;
+        public int[] ChannelInterruptFlags;
         public int SpellID;
-        public uint[] AuraInterruptFlags;
-        public uint[] ChannelInterruptFlags;
-        public ushort InterruptFlags;
-        public byte Difficulty;
     }
 }
